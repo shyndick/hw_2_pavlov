@@ -8,7 +8,7 @@ let a = 10,
 document.write (`Число a = ${a} Число b = ${b}.<br> Сумма ${sum}. Разность ${dif}. Произведение ${comp}. Частное ${priv}<br>`)
 
 if (sum > 1) {
-    document.write('Сумма в квадрате: ' + sum * sum);
+    document.write('Сумма в квадрате: ' + sum * sum + '<br>');
 } else{
-    document.write('Сумма < 1');
+    document.write('Сумма < 1 <br>');
 }
