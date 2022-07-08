@@ -1,13 +1,13 @@
 let day,
     n;
 day = prompt('Введите любое положительное число');
-n = day / 31;
+// n = day / 31;
 
-// if (day < 365) {
-//     n = day / 31; 
-// } else {
-//     n = (day % 365) / 31;
-// }
+if (day < 365) {
+    n = day / 31; 
+} else {
+    n = (day % 365) / 31;
+}
 switch(true) {
     case n >= 0 && n <= 1: 
         document.write('Январь <br>');
